@@ -19,13 +19,9 @@ describe Snowflake do
   end
 
   describe ".id_to_utc" do
-    generator = Snowflake.new(1_u64)
-
     it "converts a snowflake ID back to the correct UTC timestamp" do
       # https://twitter.com/Wikipedia/status/1541815603606036480
       snowflake_id = 1541815603606036480_u64
-
-      generated_time = Snowflake.id_to_utc(snowflake_id)
 
       expected_time = Time.utc(2022, 6, 28, 16, 7, 40, nanosecond: 105000000)
 
