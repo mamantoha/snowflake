@@ -1,6 +1,8 @@
 # Snowflake
 
 [![Crystal CI](https://github.com/mamantoha/snowflake/actions/workflows/crystal.yml/badge.svg)](https://github.com/mamantoha/snowflake/actions/workflows/crystal.yml)
+[![GitHub release](https://img.shields.io/github/release/mamantoha/snowflake.svg)](https://github.com/mamantoha/snowflake/releases)
+[![License](https://img.shields.io/github/license/mamantoha/snowflake.svg)](https://github.com/mamantoha/snowflake/blob/main/LICENSE)
 
 Snowflake ID generator implementation in Crystal programming language, which is designed to generate unique,
 time-based identifiers using a 64-bit structure. These identifiers consist of a timestamp component,
