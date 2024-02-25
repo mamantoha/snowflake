@@ -82,7 +82,7 @@ class Snowflake
   end
 
   private def wait_for_next_millisecond(timestamp : Int64) : Int64
-    while (current_time == timestamp)
+    while current_time == timestamp
       # Busy-wait
     end
 
